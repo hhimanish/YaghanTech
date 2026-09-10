@@ -1,13 +1,18 @@
 import Head from 'next/head';
 
 type MetaProps = {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   keywords?: string[];
   imageUrl?: string;
 };
 
-export default function Meta({ title, description, keywords, imageUrl }: MetaProps) {
+export default function Meta({
+  title = "YaghanTech – Technology Growth Partner",
+  description = "Premium technology solutions for SME owners and digital marketers",
+  keywords = [],
+  imageUrl = "/assets/hero_illustration.jpg",
+}: MetaProps) {
   return (
     <Head>
       <title>{title}</title>
