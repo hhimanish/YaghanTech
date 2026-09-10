@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "services": "Services",
+    "howWeWork": "How We Work",
+    "work": "Work",
+    "forMarketers": "For Marketers",
+    "about": "About",
+    "insights": "Insights",
+    "contact": "Contact"
+  },
+  "hero": {
+    "cta": "Get Started"
+  }
+}
